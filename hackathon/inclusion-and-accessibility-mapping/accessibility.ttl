@@ -23,7 +23,7 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:isDefinedBy id:schema ;
     rdfs:subClassOf :Accessibility ;
     rdfs:label "Digital Accessibility"@en ;
-    rdfs:comment "Any accessbility information regarding digital requirements for an activity" ;"
+    rdfs:comment "Any accessbility information regarding digital requirements for an activity" ;
 .
 
 :PhysicalAccessibility
@@ -31,7 +31,7 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:isDefinedBy id:schema ;
     rdfs:subClassOf :Accessibility ;
     rdfs:label "Physical Accessibility"@en ;
-    rdfs: comment "Any accessbibility information regarding physical ability required for an activity" ;
+    rdfs:comment "Any accessbibility information regarding physical ability required for an activity" ;
 .
 
 ## Accessibility Concepts
@@ -58,6 +58,7 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:subClassOf :PhysicalAccessibility ;
     rdfs:label "Remote Accessibility" ;
     rdfs:comment "Any accomodations available for remote participation in an activity." ;
+] .
 
 [
     rdfs:subClassOf :PhysicalAccessibility ;
