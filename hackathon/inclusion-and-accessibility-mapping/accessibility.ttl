@@ -17,12 +17,110 @@ prefix skos:            <http://www.w3.org/2004/02/skos/core#>
 prefix time:            <http://www.w3.org/2006/time#>
 prefix vann:            <http://purl.org/vocab/vann/>
 
-[
-    a :Accessibility ;
-    rdfs:label "x" ;
-] .
 
-[
-    a :Accessibility ;
-    rdfs:label "y" ;
-] .
+## Main Concept
+:Accessibility
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :Concept ;
+    :conceptLabel "Accessibility"@en ;
+    :description "Any accessibility information related to volunteering activities."@en ;
+.
+
+## Concept Subclasses
+:DigitalAccessibility
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :Accessibility ;
+    rdfs:label "Digital Accessibility"@en ;
+    rdfs:comment "Any accessbility information regarding digital requirements for an activity"@en ;
+.
+
+:PhysicalAccessibility
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :Accessibility ;
+    rdfs:label "Physical Accessibility"@en ;
+    rdfs:comment "Any accessbibility information regarding physical ability required for an activity" ;
+.
+
+## Accessibility Concepts
+:ExpensesPaid
+    rdfs:subClassOf :Accessibility ;
+    rdfs:label "Expenses Paid" ;
+    rdfs:comment "Any information regarding reimbursement for activity or role-related expenses.";
+.
+
+:AgeRequirements
+    rdfs:subClassOf :Accessibility ;
+    rdfs:label "Age Requirements" ;
+    rdfs:comment "Any information regarding specific ages or ranges of ages required or disallowed from a activity." ;
+.
+
+:LanguageRequirements
+    rdfs:subClassOf :Accessibility ;
+    rdfs:label "Language Requirements" ;
+    rdfs:comment "Any language information for an activity, including required language(s) and translation services available." ;
+.
+
+##Physical Accessibility Concepts
+:RemoteAccessibility
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Remote Accessibility" ;
+    rdfs:comment "Any accomodations available for remote participation in an activity." ;
+.
+
+:BuildingAccessibilityFeatures
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Building Accessibility Features" ;
+    rdfs:comment "Any information on building accessibility features for mobility aid users and accessible gender, faith, etc. rooms." ;
+.
+
+:PublicTransportAccess
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Public Transport Access" ;
+    rdfs:comment "Any information on venue access via public transport lines." ;
+.
+
+:ParkingAvailability
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Parking Availability" ;
+    rdfs:comment "Any information on parking availability and accessibility at the venue." ;
+.
+
+:ServiceAnimals
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Service Animals" ;
+    rdfs:comment "Accessiblity information regarding usage of service animals in and around venue." ;
+.
+
+:VisualImpairment
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Visual Impairment" ;
+    rdfs:comment "Any information on activities wherin visual impairments may be affected or accommodated." ;
+.
+
+:CareProfessionals
+    rdfs:subClassOf :PhysicalAccessibility ;
+    rdfs:label "Care Professionals" ;
+    rdfs:comment "Any accommodations available for volunteers assisted by care professionals." ;
+.
+
+##Digital Accessibility Concepts
+:WifiUsage
+    rdfs:subClassOf :DigitalAccessibility ;
+    rdfs:label "Wifi Usage" ;
+    rdfs:comment "Any information on wifi usage necessary for a activity." ;
+.
+
+:TechnologyRequirements
+    rdfs:subClassOf :DigitalAccessibility ;
+    rdfs:label "Technology Requirements" ;
+    rdfs:comment "Any information on devices (laptop, phone, smartphone) and software required for a activity." ;
+.
+
+:TechnologyAvailability
+    rdfs:subClassOf :DigitalAccessibility ;
+    rdfs:label "Technology Availability" ;
+    rdfs:comment "Any information on supplementory accessiblity software available in activities (screen readers, captioning)." ;
+.
