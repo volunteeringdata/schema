@@ -27,16 +27,17 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:comment "Any requirement related to crisis and emergency responses"@en ;
 .
 
-
 :CrisisResponseSkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
-    rdfs:subClassOf :CrisisResponseRequirement ;
+    rdfs:subClassOf :Concept ;
     rdfs:label "Crisis response skills"@en ;
     rdfs:comment "Any skills related to crisis and emergency responses"@en ;
 .
 
-## Concept Subclasses
+
+# Skills
+## Personal and interpersonal skills
 :PersonalInterpersonalSkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
@@ -49,15 +50,43 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:label "Empathy and compassion" ;
 .
 
-# Empathy and compassion
-# Calmness under pressure
-# Patience and understanding
-# Reliability and trustworthiness
-# Respect for professional boundaries
-# Cultural sensitivity
-# Trauma-informed awareness
-# Conflict de-escalation
+:CalmnessUnderPressure
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Calmness under pressure" ;
+.
 
+:PatienceAndUnderstanding
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Patience and understanding" ;
+.
+
+:ReliabilityAndTrustworthiness
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Reliability and trustworthiness" ;
+.
+
+:RespectForProfessionalBoundaries
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Respect for professional boundaries" ;
+.
+
+:CulturalSensitivity
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Cultural sensitivity" ;
+.
+
+:TraumaInformedAwareness
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Trauma-informed awareness" ;
+.
+
+:ConflictDeescalation
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Conflict de-escalation" ;
+.
+
+
+## Communication skills
 :CommunicationSkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
@@ -65,13 +94,38 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:label "Communication skills" ;
 .
 
-# Clear spoken communication
-# Active listening
-# Ability to relay accurate information
-# Supporting people via phone/online
-# Use of radios / walkie-talkies
-# Confidence engaging with the public or groups
+:ClearSpokenCommunication
+    a :CommunicationSkills ;
+    rdfs:label "Clear spoken communication" ;
+.
 
+:ActiveListening
+    a :CommunicationSkills ;
+    rdfs:label "Active listening" ;
+.
+
+:AbilityToRelayAccurateInformation
+    a :CommunicationSkills ;
+    rdfs:label "Ability to relay accurate information" ;
+.
+
+:SupportingPeopleViaPhoneOnline
+    a :CommunicationSkills ;
+    rdfs:label "Supporting people via phone/online" ;
+.
+
+:UseOfRadiosAndWalkieTalkies
+    a :CommunicationSkills ;
+    rdfs:label "Use of radios and walkie-talkies" ;
+.
+
+:ConfidenceEngagingWithPublicOrGroups
+    a :CommunicationSkills ;
+    rdfs:label "Confidence engaging with the public or groups" ;
+.
+
+
+## Teamwork and leadership skills
 :TeamworkLeadershipSkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
@@ -79,12 +133,32 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:label "Teamwork and leadership skills" ;
 .
 
-# Ability to work cooperatively
-# Ability to work independently
-# Leading small groups or tasks
-# Managing conflict within teams
-# Supporting or mentoring new volunteers
+:AbilityToWorkCooperatively
+    a :TeamworkLeadershipSkills ;
+    rdfs:label "Ability to work cooperatively" ;
+.
 
+:AbilityToWorkIndependently
+    a :TeamworkLeadershipSkills ;
+    rdfs:label "Ability to work independently" ;
+.
+
+:LeadingSmallGroupsOrTasks
+    a :TeamworkLeadershipSkills ;
+    rdfs:label "Leading small groups or tasks" ;
+.
+
+:ManagingConflictWithinTeams
+    a :TeamworkLeadershipSkills ;
+    rdfs:label "Managing conflict within teams" ;
+.
+
+:SupportingOrMentoringNewVolunteers
+    a :TeamworkLeadershipSkills ;
+    rdfs:label "Supporting or mentoring new volunteers" ;
+.
+
+## Safety and emergency awareness skills
 :SafetyEmergencyAwarenessSkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
@@ -92,32 +166,102 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:label "Safety and emergency awareness skills" ;
 .
 
-# Understanding emergency briefings and instructions
-# Basic safeguarding knowledge
-# Risk awareness (water, fire, structure, debris)
-# Safe manual handling
-# Incident reporting
-# Basic first aid knowledge
-# Fire safety awareness
-# Water safety awareness
+:UnderstandingEmergencyBriefingsAndInstructions
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Understanding emergency briefings and instructions" ;
+.
 
-:PractivalOperationalSkills
+:BasicSafeguardingKnowledge
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Basic safeguarding knowledge" ;
+.
+
+:RiskAwareness
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Risk awareness (water, fire, structure, debris)" ;
+.
+
+:SafeManualHandling
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Safe manual handling" ;
+.
+
+:IncidentReporting
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Incident reporting" ;
+.
+
+:BasicFirstAidKnowledge
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Basic first aid knowledge" ;
+.
+
+:FireSafetyAwareness
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Fire safety awareness" ;
+.
+
+:WaterSafetyAwareness
+    a :SafetyEmergencyAwarenessSkills ;
+    rdfs:label "Water safety awareness" ;
+.
+
+
+## Practical and operational skills
+:PracticalOperationalSkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
     rdfs:subClassOf :CrisisResponseSkills ;
     rdfs:label "Practical and operational skills" ;
 .
 
-# Logistics (sorting, packing, distributing supplies)
-# Shelter support (setting up spaces, helping evacuees)
-# Basic record keeping
-# Use of basic equipment (sandbags, barriers, tools)
-# Navigation and orientation
-# Driving (car, van, off-road vehicles)
-# Crowd/queue management
-# Pilot License
-# HGV/Category D
+:Logistics
+    a :PracticalOperationalSkills ;
+    rdfs:label "Logistics (sorting, packing, distributing supplies)" ;
+.
 
+:ShelterSupport
+    a :PracticalOperationalSkills ;
+    rdfs:label "Shelter support (setting up spaces, helping evacuees)" ;
+.
+
+:BasicRecordKeeping
+    a :PracticalOperationalSkills ;
+    rdfs:label "Basic record keeping" ;
+.
+
+:UseOfBasicEquipment
+    a :PracticalOperationalSkills ;
+    rdfs:label "Use of basic equipment (sandbags, barriers, tools)" ;
+.
+
+:NavigationAndOrientation
+    a :PracticalOperationalSkills ;
+    rdfs:label "Navigation and orientation" ;
+.
+
+:Driving
+    a :PracticalOperationalSkills ;
+    rdfs:label "Driving (car, van, off-road vehicles)" ;
+.
+
+:CrowdQueueManagement
+    a :PracticalOperationalSkills ;
+    rdfs:label "Crowd/queue management" ;
+.
+
+:PilotLicense
+    a :PracticalOperationalSkills ;
+    rdfs:label "Pilot License" ;
+.
+
+:HGVCategoryD
+    a :PracticalOperationalSkills ;
+    rdfs:label "HGV/Category D" ;
+.
+
+
+## Digital and technology skills
 :DigitalTechnologySkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
@@ -125,58 +269,220 @@ prefix vann:            <http://purl.org/vocab/vann/>
     rdfs:label "Digital and technology skills" ;
 .
 
-# Basic IT skills
-# Confident smartphone use (maps, messaging, camera)
-# Familiarity with remote communication tools
-# Simple data entry and reporting
-# Responsible handling of social media
+:BasicITSkills
+    a :DigitalTechnologySkills ;
+    rdfs:label "Basic IT skills" ;
+.
 
+:ConfidentSmartphoneUse
+    a :DigitalTechnologySkills ;
+    rdfs:label "Confident smartphone use (maps, messaging, camera)" ;
+.
+
+:FamiliarityWithRemoteCommunicationTools
+    a :DigitalTechnologySkills ;
+    rdfs:label "Familiarity with remote communication tools" ;
+.
+
+:SimpleDataEntryAndReporting
+    a :DigitalTechnologySkills ;
+    rdfs:label "Simple data entry and reporting" ;
+.
+
+:ResponsibleHandlingOfSocialMedia
+    a :DigitalTechnologySkills ;
+    rdfs:label "Responsible handling of social media" ;
+.
+
+
+## Community skills
 :CommunitySkills
     a owl:Class ;
     rdfs:isDefinedBy id:schema ;
     rdfs:subClassOf :CrisisResponseSkills ;
-    rdfs:label "Digital and technology skills" ;
+    rdfs:label "Community skills" ;
 .
 
-7. COMMUNITY & ENVIRONMENT KNOWLEDGE
-Knowledge of local roads, facilities, and resources
-Understanding diverse needs within the community
-Awareness of local support services
+:KnowledgeOfLocalRoadsFacilitiesResources
+    a :CommunitySkills ;
+    rdfs:label "Knowledge of local roads, facilities, and resources" ;
+.
 
-8. PHYSICAL & PRACTICAL READINESS
-Physical stamina for standing, walking, carrying
-Ability to work outdoors in varied conditions
-Personal preparedness (water, snacks, medication)
+:UnderstandingDiverseNeedsWithinCommunity
+    a :CommunitySkills ;
+    rdfs:label "Understanding diverse needs within the community" ;
+.
 
-9. ASSETS & EQUIPMENT 
-Useful items or capabilities that strengthen crisis response.
-Personal Equipment
-Sturdy footwear (e.g., boots)
-Waterproofs and warm layers
-Gloves (work gloves, waterproof gloves)
-High-visibility vest
-Headtorch or flashlight
-Phone + power bank
-Small personal first aid kit
-Water bottle
-Transport & Mobility Assets
-4x4 vehicle (personal or organisational)
-SUV or off-road capable vehicle
-Vehicle with tow capability
-Access to a van or people-carrier
-Ability to transport equipment or supplies
-Access to bicycles or cargo bikes (urban crises)
-Boat
-Hovercraft
-Specialist or Useful Assets
-Walkie-talkies or radios
-Portable generator or power station
-Water pump (for localised flooding help)
-Tools (shovel, rake, chainsaw, basic toolkit)
-Portable shelter/gazebo
-Thermal blankets
-PPE such as masks, goggles, or waterproof gloves
-Maps / waterproof map cases
-Life jacket (for trained flood volunteers)
-Venue
-Kitchen
+:AwarenessOfLocalSupportServices
+    a :CommunitySkills ;
+    rdfs:label "Awareness of local support services" ;
+.
+
+
+# Requirements
+## Physical and practical readiness
+:PhysicalAndPracticalReadiness
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseRequirement ;
+    rdfs:label "Physical and practical readiness" ;
+.
+
+:PhysicalStamina
+    a :PhysicalAndPracticalReadiness ;
+    rdfs:label "Physical stamina for standing, walking, carrying" ;
+.
+
+:AbilityToWorkOutdoors
+    a :PhysicalAndPracticalReadiness ;
+    rdfs:label "Ability to work outdoors in varied conditions" ;
+.
+
+:PersonalPreparedness
+    a :PhysicalAndPracticalReadiness ;
+    rdfs:label "Personal preparedness (water, snacks, medication)" ;
+.
+
+
+## Assets and equipment
+:AssetsAndEquipment
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseRequirement ;
+    rdfs:label "Assets and equipment" ;
+.
+
+:SturdyFootwear
+    a :AssetsAndEquipment ;
+    rdfs:label "Sturdy footwear (e.g., boots)" ;
+.
+
+:WaterproofsAndWarmLayers
+    a :AssetsAndEquipment ;
+    rdfs:label "Waterproofs and warm layers" ;
+.
+
+:Gloves
+    a :AssetsAndEquipment ;
+    rdfs:label "Gloves (work gloves, waterproof gloves)" ;
+.
+
+:HighVisibilityVest
+    a :AssetsAndEquipment ;
+    rdfs:label "High-visibility vest" ;
+.
+
+:HeadtorchOrFlashlight
+    a :AssetsAndEquipment ;
+    rdfs:label "Headtorch or flashlight" ;
+.
+
+:PhoneAndPowerBank
+    a :AssetsAndEquipment ;
+    rdfs:label "Phone + power bank" ;
+.
+
+:SmallPersonalFirstAidKit
+    a :AssetsAndEquipment ;
+    rdfs:label "Small personal first aid kit" ;
+.
+
+:WaterBottle
+    a :AssetsAndEquipment ;
+    rdfs:label "Water bottle" ;
+.
+
+:FourByFourVehicle
+    a :AssetsAndEquipment ;
+    rdfs:label "4x4 vehicle (personal or organisational)" ;
+.
+
+:SUVOrOffRoadVehicle
+    a :AssetsAndEquipment ;
+    rdfs:label "SUV or off-road capable vehicle" ;
+.
+
+:VehicleWithTowCapability
+    a :AssetsAndEquipment ;
+    rdfs:label "Vehicle with tow capability" ;
+.
+
+:AccessToVanOrPeopleCarrier
+    a :AssetsAndEquipment ;
+    rdfs:label "Access to a van or people-carrier" ;
+.
+
+:AbilityToTransportEquipmentOrSupplies
+    a :AssetsAndEquipment ;
+    rdfs:label "Ability to transport equipment or supplies" ;
+.
+
+:AccessToBicyclesOrCargoBikes
+    a :AssetsAndEquipment ;
+    rdfs:label "Access to bicycles or cargo bikes (urban crises)" ;
+.
+
+:Boat
+    a :AssetsAndEquipment ;
+    rdfs:label "Boat" ;
+.
+
+:Hovercraft
+    a :AssetsAndEquipment ;
+    rdfs:label "Hovercraft" ;
+.
+
+:WalkieTalkiesOrRadios
+    a :AssetsAndEquipment ;
+    rdfs:label "Walkie-talkies or radios" ;
+.
+
+:PortableGeneratorOrPowerStation
+    a :AssetsAndEquipment ;
+    rdfs:label "Portable generator or power station" ;
+.
+
+:WaterPump
+    a :AssetsAndEquipment ;
+    rdfs:label "Water pump (for localised flooding help)" ;
+.
+
+:Tools
+    a :AssetsAndEquipment ;
+    rdfs:label "Tools (shovel, rake, chainsaw, basic toolkit)" ;
+.
+
+:PortableShelterOrGazebo
+    a :AssetsAndEquipment ;
+    rdfs:label "Portable shelter/gazebo" ;
+.
+
+:ThermalBlankets
+    a :AssetsAndEquipment ;
+    rdfs:label "Thermal blankets" ;
+.
+
+:PPE
+    a :AssetsAndEquipment ;
+    rdfs:label "PPE such as masks, goggles, or waterproof gloves" ;
+.
+
+:MapsOrWaterproofMapCases
+    a :AssetsAndEquipment ;
+    rdfs:label "Maps / waterproof map cases" ;
+.
+
+:LifeJacket
+    a :AssetsAndEquipment ;
+    rdfs:label "Life jacket (for trained flood volunteers)" ;
+.
+
+:Venue
+    a :AssetsAndEquipment ;
+    rdfs:label "Venue" ;
+.
+
+:Kitchen
+    a :AssetsAndEquipment ;
+    rdfs:label "Kitchen" ;
+.

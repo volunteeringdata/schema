@@ -8,5 +8,5 @@ https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteer
 
 1. The intelligent opportunity matchmaker: How can we use standardised data to move beyond simple keyword search?
 2. The conversational and generative search agent: Can finding a volunteer role be as easy as asking a friend?
-3. [Inclusion and accessibility mapping](./inclusion-and-accessibility-mapping.md): How can we use data to broaden reach and ensure no one is excluded?
-4. Crisis response and spontaneous volunteering: How can this data infrastructure be rapidly deployed in an emergency (eg, a flood)?
+3. [Inclusion and accessibility mapping](./inclusion-and-accessibility-mapping/README.md): How can we use data to broaden reach and ensure no one is excluded?
+4. [Crisis response and spontaneous volunteering](./crisis-response-and-spontaneous-volunteering/README.md): How can this data infrastructure be rapidly deployed in an emergency (eg, a flood)?

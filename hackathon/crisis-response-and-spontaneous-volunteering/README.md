@@ -1,6 +1,19 @@
 # Crisis Response and Spontaneous Volunteering
 
-## PERSONAL & INTERPERSONAL SKILLS
+This is a taxonomy of crisis response and spontaneous volunteering concepts.
+
+We are always looking to improve this data model. Please don't hesitate to [contribute to the discussion](https://github.com/orgs/volunteeringdata/discussions/categories/emergency-response).
+
+## Model
+
+![Crisis Response and Spontaneous Volunteering taxonomy v1](./crisis.png "Crisis Response and Spontaneous Volunteering taxonomy v1") - Initial version of the Crisis Response and Spontaneous Volunteering mapping.
+
+Note: The model image was generated using the [WebVOWL](https://github.com/VisualDataWeb/WebVOWL) ontology visualisation tool.
+
+
+## Skills
+
+### Personal & interpersonal
 
 - Empathy and compassion
 - Calmness under pressure
@@ -12,7 +25,7 @@
 - Conflict de-escalation
 
 
-## COMMUNICATION SKILLS
+### Communication
 
 - Clear spoken communication
 - Active listening
@@ -22,7 +35,7 @@
 - Confidence engaging with the public or groups
 
 
-## TEAMWORK & LEADERSHIP
+### Teamwork & leadership
 
 - Ability to work cooperatively
 - Ability to work independently
@@ -31,7 +44,7 @@
 - Supporting or mentoring new volunteers
 
 
-## SAFETY & EMERGENCY AWARENESS
+### Safety & emergency awareness
 
 - Understanding emergency briefings and instructions
 - Basic safeguarding knowledge
@@ -43,7 +56,7 @@
 - Water safety awareness
 
 
-## PRACTICAL & OPERATIONAL SKILLS
+### Practical & operational
 
 - Logistics (sorting, packing, distributing supplies)
 - Shelter support (setting up spaces, helping evacuees)
@@ -56,7 +69,7 @@
 - HGV/Category D
 
 
-## DIGITAL & TECHNOLOGY SKILLS
+### Digital & technology
 
 - Basic IT skills
 - Confident smartphone use (maps, messaging, camera)
@@ -65,21 +78,21 @@
 - Responsible handling of social media
 
 
-## COMMUNITY & ENVIRONMENT KNOWLEDGE
+## Requirements
+
+### Community & environment knowledge
 
 - Knowledge of local roads, facilities, and resources
 - Understanding diverse needs within the community
 - Awareness of local support services
 
-
-## PHYSICAL & PRACTICAL READINESS
+### Physical & practical readiness
 
 - Physical stamina for standing, walking, carrying
 - Ability to work outdoors in varied conditions
 - Personal preparedness (water, snacks, medication)
 
-
-## ASSETS & EQUIPMENT 
+### Assets & equipment
 
 - Useful items or capabilities that strengthen crisis response.
 - Personal Equipment
