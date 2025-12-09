@@ -3,8 +3,6 @@ layout: default
 title: FAQ
 ---
 
-# FAQ
-
 1. What properties are required for a volunteering activity?
    > An activity MUST have an organisation, a label, and a description.
 1. If an activity has no Location, it is remote?

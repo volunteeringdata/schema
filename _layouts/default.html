@@ -1,20 +1,39 @@
----
-layout: default
-title: Home
----
-
-<h1>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</h1>
-
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/use-cases/">Use cases</a></li>
-    <li><a href="/hackathon/">Hackathon</a></li>
-    <li><a href="/version/">Versions</a></li>
-    <li><a href="/faq/">FAQ</a></li>
-  </ul>
-</nav>
-
-<main>
-  {{ content }}
-</main>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+{% if page.permalink %}
+        <link rel="canonical" href="{{ page.permalink | prepend: site.base_url }}">{% endif %}
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="/assets/css/base.css" />
+        <link rel="stylesheet" href="/assets/css/header.css" />
+    </head>
+    <body>
+        <header class="header">
+            <address class="homepage-link">
+                <a href="/">Volunteering Data Model</a>
+            </address>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/use-cases/">Use cases</a></li>
+                    <li><a href="/hackathon/">Hackathon</a></li>
+                    <li><a href="/version/">Versions</a></li>
+                    <li><a href="/faq/">FAQ</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+        <main>
+            <article>
+                {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+                {{ content }}
+            </article>
+        </main>
+        <script src="/assets/js/menu.js"></script>
+    </body>
+</html>
