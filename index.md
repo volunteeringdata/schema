@@ -1,4 +1,7 @@
-# Volunteering and Social Action Ontology
+---
+layout: default
+title: Volunteering and Social Action Ontology
+---
 
 A [data model](https://service.tib.eu/webvowl/#opts=doc=0;filter_sco=true;mode_compact=true;#iri=https://query20251112104247-h6affebdd4gfa4bs.uksouth-01.azurewebsites.net/schema.ttl) to describe volunteering opportunities and volunteer-involving organisations.
 

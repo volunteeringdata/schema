@@ -3,8 +3,6 @@ layout: default
 title: Open Data Infrastructure for Volunteering Hackathon
 ---
 
-<h1>Open Data Infrastructure for Volunteering Hackathon</h1>
-
 A two-day hackathon bringing together volunteer platforms, developers, and community organisations to test the first draft of the standard and explore how open data can connect more people with opportunities to help.
 
 https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/

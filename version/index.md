@@ -3,8 +3,6 @@ layout: default
 title: Volunteering and Social Action Ontology Versions
 ---
 
-# Volunteering and Social Action Ontology Versions
-
 This directory holds snapshots of the volunteering data model.
 
 Images have been generated using the [WebVOWL](https://github.com/VisualDataWeb/WebVOWL) ontology visualisation tool.

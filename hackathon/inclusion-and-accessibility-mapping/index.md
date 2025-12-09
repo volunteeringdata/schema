@@ -1,4 +1,7 @@
-# Accessibility and Inclusion Taxonomy Mapping
+---
+layout: default
+title: Accessibility and Inclusion Taxonomy Mapping
+---
 
 This is a taxonomy of inclusion and accessibility.
 

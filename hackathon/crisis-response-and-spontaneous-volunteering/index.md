@@ -1,4 +1,8 @@
-# Crisis Response and Spontaneous Volunteering
+---
+layout: default
+title: Crisis Response and Spontaneous Volunteering
+---
+
 
 This is a taxonomy of crisis response and spontaneous volunteering concepts.
 

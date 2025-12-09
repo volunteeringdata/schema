@@ -3,8 +3,6 @@ layout: default
 title: Use Cases
 ---
 
-# Use Cases
-
 1. Improving recruitment
     - A data standard to describe the persona or profile of a volunteer and a potential volunteer
     - A data standard to describe a volunteering opportunity
