@@ -17,13 +17,13 @@ Following that principle, the volunteering and social action ontology is develop
 
 ### Discovery
 
-A landscape review of the Voluntary, Community, and Social Enterprise (VCSE) sector helped identify an initial list of [use cases](./use-cases/) that could inform the standardisation effort.
+A landscape review of the VCSE sector helped identify [use cases](./use-cases/) to inform the focus of the standardisation effort.
 
 ### Alpha
 
-A [Standards Working Group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/) helps with gathering feedback and informing development of the standard.
+A [Standards Working Group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/) was formed to gather feedback and push the standard in the right direction.
 
-A [Hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/) brought together subject matter experts, raising awareness of the standardisation effort, and informing the [direction of our efforts](./hackathon/).
+A [Hackathon](./hackathon/) brought together SMEs to raise awareness of the standardisation effort, test our first draft standard in practical usage, and inform the direction of our efforts (see also [open data infrastructure for volunteering hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/)).
 
 
 ## Contributing Knowledge to the Volunteering and Social Action Ontology
