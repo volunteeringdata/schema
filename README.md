@@ -9,6 +9,7 @@ We are always looking to improve this data model.
 
 Please don't hesitate to contribute to the [discussions](https://github.com/orgs/volunteeringdata/discussions/) on the volunteering data model repository. We created 7 main categories to focus on specific areas of development and expertise: [Accessibility](https://github.com/orgs/volunteeringdata/discussions/categories/accessibility); [Data Governance](https://github.com/orgs/volunteeringdata/discussions/categories/data-governance); [Emergency Response](https://github.com/orgs/volunteeringdata/discussions/categories/emergency-response); [Geographical Location](https://github.com/orgs/volunteeringdata/discussions/categories/geographical-location); [Roles and Skills](https://github.com/orgs/volunteeringdata/discussions/categories/roles-and-skills); [Volunteer Involving Organisation](https://github.com/orgs/volunteeringdata/discussions/categories/volunteer-involving-organisation); [Volunteering Opportunities](https://github.com/orgs/volunteeringdata/discussions/categories/volunteering-opportunities).
 
+You can also [join the volunteering data standards working group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/).
 
 ## Process
 
