@@ -37,23 +37,23 @@ The first working group meeting introducing the project, and the role and purpos
 
 * Meeting Note (PDF): [View the note of the meeting](notes_20251114_volunteering_swg_1.pdf)  
 * Slides (PDF): [View the slides from the meeting](slides_20251114_volunteering_swg_1.pdf)  
-* Whiteboard: [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVJrEfNMw=/?share_link_id=599623925654)
+* Whiteboard (Miro): [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVJrEfNMw=/?share_link_id=599623925654)
 
 ### Meeting 2 2025-11-26
 
 The second working group meeting provided an update on the development of the data model and workshopped data access requirements, to inform the design of an API (APIs are computer to computer messaging services) and started to consider the pros and cons of opportunity data being published as open data (Open data is data that anyone can access, use or share).
 
-Meeting Notes (PDF): Coming soon!
-Slides (PDF): [View the slides from the meeting](slides_20251125_volunteering_swg_2.pdf)  
-Whiteboard: [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVJldYfOU=/)
+* Meeting Notes (PDF): Coming soon!
+* Slides (PDF): [View the slides from the meeting](slides_20251125_volunteering_swg_2.pdf)  
+* Whiteboard (Miro): [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVJldYfOU=/)
 
 ### Meeting 3 2025-12-10
 
 The third working group meeting was more retrospective, the working group reviewed what had been achieved so far, explored the outputs from [the hackathon](https://theodi.org/news-and-events/blog/connecting-volunteers-what-we-learned-from-our-hackathon/) and continued the discussion about open data.
 
-Meeting Notes (PDF): Coming soon!  
-Slides (PDF): [View the slides from the meeting](slides_20251125_volunteering_swg_2.pdf)  
-Whiteboard: [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVGd58Ecw=/?share_link_id=112346054045) **This whiteboard is open for comment**
+* Meeting Notes (PDF): Coming soon!  
+* Slides (PDF): [View the slides from the meeting](slides_20251125_volunteering_swg_2.pdf)  
+* Whiteboard (Miro): [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVGd58Ecw=/?share_link_id=112346054045) **This whiteboard is open for comment**
 
 ### Future Meetings
 
