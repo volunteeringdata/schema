@@ -51,7 +51,8 @@ The second working group meeting provided an update on the development of the da
 
 The third working group meeting was more retrospective, the working group reviewed what had been achieved so far, explored the outputs from [the hackathon](https://theodi.org/news-and-events/blog/connecting-volunteers-what-we-learned-from-our-hackathon/) and continued the discussion about open data.
 
-* Meeting Notes (PDF): Coming soon!  
+* Meeting Notes (PDF): [View the note of the meeting](notes_20251210_volunteering_swg_3.pdf)
+
 * Slides (PDF): [View the slides from the meeting](slides_20251125_volunteering_swg_2.pdf)  
 * Whiteboard (Miro): [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVGd58Ecw=/?share_link_id=112346054045) **This whiteboard is open for comment**
 
