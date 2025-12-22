@@ -49,7 +49,7 @@ We created 7 main categories for focused discussions on specific modeling and re
 
 ### Standards Working Group
 
-You can also [join the volunteering data standards working group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/).
+You can also [join the volunteering data standards working group](https://share.hsforms.com/17sQpFOMLTvK_7SpLL6dn8gg1jy).
 
 
 ## Data Model
