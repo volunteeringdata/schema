@@ -24,7 +24,7 @@ A landscape review of the VCSE sector helped identify [use cases](./use-cases/) 
 
 ### Alpha
 
-A [Standards Working Group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/) was formed to gather feedback and push the standard in the right direction.
+A [Standards Working Group](./working-group/) was formed to gather feedback and push the standard in the right direction.
 
 A [Hackathon](./hackathon/) brought together SMEs to raise awareness of the standardisation effort, test our first draft standard in practical usage, and inform the direction of our efforts (see also [open data infrastructure for volunteering hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/)).
 
