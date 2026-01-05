@@ -15,6 +15,7 @@ prefix xsd:             <http://www.w3.org/2001/XMLSchema#>
 prefix dc:              <http://purl.org/dc/terms/>
 prefix skos:            <http://www.w3.org/2004/02/skos/core#>
 prefix time:            <http://www.w3.org/2006/time#>
+prefix vcard:           <http://www.w3.org/2006/vcard/ns#>
 prefix vann:            <http://purl.org/vocab/vann/>
 
 
@@ -365,7 +366,7 @@ id:schema
 :email
     a owl:DatatypeProperty ;
     rdfs:isDefinedBy id:schema ;
-    rdfs:subPropertyOf dc:description ;
+    rdfs:subPropertyOf vcard:hasEmail ;
     rdfs:label "has email"@en ;
 .
 
