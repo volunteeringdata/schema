@@ -44,6 +44,7 @@ We created 7 main categories for focused discussions on specific modeling and re
 - [Emergency Response](https://github.com/orgs/volunteeringdata/discussions/categories/emergency-response)
 - [Geographical Location](https://github.com/orgs/volunteeringdata/discussions/categories/geographical-location)
 - [Roles and Skills](https://github.com/orgs/volunteeringdata/discussions/categories/roles-and-skills)
+- [Value Mapping](https://github.com/orgs/volunteeringdata/discussions/categories/value-typology)
 - [Volunteer Involving Organisation](https://github.com/orgs/volunteeringdata/discussions/categories/volunteer-involving-organisation)
 - [Volunteering Opportunities](https://github.com/orgs/volunteeringdata/discussions/categories/volunteering-opportunities)
 
