@@ -3,6 +3,12 @@ layout: default
 title: Volunteering and Social Action Ontology
 ---
 
+In England, 24.8 million adults volunteer at least once annually, providing essential support in their communities, from crisis response to helping vulnerable people. This activity delivered an economic value of £24.69 billion in 2021/22. However, systemic barriers prevent volunteering from reaching its full potential for individuals, communities, and the economy.
+
+There is a fragmented landscape of volunteering opportunities spread across 47 brokerage platforms, with limited ability to share data. Volunteering data is often confined to organisational 'siloes,' making it difficult to publish, find, and access available roles.
+
+To address these hidden barriers, the [ODI](https://theodi.org/insights/projects/open-data-infrastructure-for-volunteering/) is collaborating with [Do IT](https://www.doit.life/) and [Team Kinetic](https://teamkinetic.co.uk/) on a project commissioned by the [Department for Culture, Media and Sport (DCMS)](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). The goal is to enhance the accessibility of volunteering data, making it easier for people to find opportunities and for organisations to attract the help they need.
+
 The volunteering and social action ontology aims to standardise the representation of volunteering opportunities and volunteer-involving organisations so that data and associated tooling become reusable and can be shared across the Voluntary, Community, and Social Enterprise (VCSE) sector.
 
 Standard data models designed to address the challenges faced by a sector are the base for information systems interoperability. Their adoption lowers both the cost and technical barrier for entry into a data ecosystem.
@@ -37,7 +43,7 @@ We welcome domain experts and people with varied experiences of volunteering to 
 
 Please don't hesitate to contribute to the [discussions](https://github.com/orgs/volunteeringdata/discussions/) on the volunteering data model repository.
 
-We created 7 main categories for focused discussions on specific modeling and requirements topics:
+We created 8 categories for focused discussions on specific modeling and requirements topics:
 
 - [Accessibility](https://github.com/orgs/volunteeringdata/discussions/categories/accessibility)
 - [Data Governance](https://github.com/orgs/volunteeringdata/discussions/categories/data-governance)
