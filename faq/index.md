@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAQ
+title: Technical FAQ
 ---
 
 1. What properties are required for a volunteering activity?
