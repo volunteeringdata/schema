@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "croissant": "http://mlcommons.org/croissant/",
+    "wd": "http://www.wikidata.org/entity/",
+    "wdt": "http://www.wikidata.org/prop/direct/"
+  },
+  "@type": "sc:Dataset",
+  "name": "Volunteering Opportunity Locations",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "activity",
+      "contentUrl": "https://volunteeringdata.io/activity",
+      "encodingFormat": "application/json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "activity/location",
+      "dataType": ["sc:GeoCoordinates"],
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "activity/location/name",
+          "dataType": "sc:Text"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "activity/location/country",
+          "dataType": "sc:Text",
+          "equivalentProperty": "wdt:P17"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "activity/location/geo/latitude",
+          "dataType": "sc:Float"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "activity/location/geo/longitude",
+          "dataType": "sc:Float"
+        }
+      ]
+    }
+  ]
+}
