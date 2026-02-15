@@ -24,23 +24,47 @@
         {
           "@type": "cr:Field",
           "@id": "activity/location/name",
-          "dataType": "sc:Text"
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "activity" },
+            "extract": {
+              "jsonpath": "location.name"
+            }
+          }
         },
         {
           "@type": "cr:Field",
           "@id": "activity/location/country",
           "dataType": "sc:Text",
-          "equivalentProperty": "wdt:P17"
+          "equivalentProperty": "wdt:P17",
+          "source": {
+            "fileObject": { "@id": "activity" },
+            "extract": {
+              "jsonpath": "location.country"
+            }
+          }
         },
         {
           "@type": "cr:Field",
           "@id": "activity/location/geo/latitude",
-          "dataType": "sc:Float"
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": { "@id": "activity" },
+            "extract": {
+              "jsonpath": "location.geo.latitude"
+            }
+          }
         },
         {
           "@type": "cr:Field",
           "@id": "activity/location/geo/longitude",
-          "dataType": "sc:Float"
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": { "@id": "activity" },
+            "extract": {
+              "jsonpath": "location.geo.longitude"
+            }
+          }
         }
       ]
     }
