@@ -11,7 +11,7 @@
     {
       "@type": "cr:FileObject",
       "@id": "activity",
-      "contentUrl": "https://volunteeringdata.io/activity",
+      "contentUrl": "https://api.volunteeringdata.io/activity.json",
       "encodingFormat": "application/json"
     }
   ],
