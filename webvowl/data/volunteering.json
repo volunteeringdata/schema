@@ -1,0 +1,3665 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://id.volunteeringdata.io/schema", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2006/time", "http://www.w3.org/2004/02/skos/core" ],
+    "iri" : "https://id.volunteeringdata.io/schema",
+    "labels" : {
+      "en" : "Volunteering and Social Action Ontology"
+    },
+    "other" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "volunteering",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema/",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2025-11-20",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "115",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "45",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "110",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "145",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "139",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "144",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "101",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "80",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "124",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "167",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "171",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://id.volunteeringdata.io/schema/Organisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organisation",
+      "en" : "Organisation",
+      "undefined" : "Volunteer-Involving Organisation"
+    },
+    "comment" : {
+      "en" : "Any organisation running activities that involve volunteers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Location",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Location",
+      "en" : "Location",
+      "undefined" : "Volunteering Location"
+    },
+    "subClasses" : [ "41", "42" ],
+    "comment" : {
+      "en" : "Any location related to volunteering activities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Session",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Session",
+      "en" : "Session",
+      "undefined" : "Volunteering Activity Session"
+    },
+    "subClasses" : [ "43" ],
+    "comment" : {
+      "en" : "A session describes a time and place for an activity that involves volunteers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Time",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Time",
+      "en" : "Time",
+      "undefined" : "Volunteering Time Information"
+    },
+    "subClasses" : [ "52" ],
+    "comment" : {
+      "en" : "Any time information related to volunteering activities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Requirement",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Requirement"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationDemography",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationDemography",
+      "en" : "Organisation Demography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationThing",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationThing",
+      "en" : "Organisation Thing"
+    },
+    "subClasses" : [ "42", "85" ],
+    "comment" : {
+      "en" : "Any class related to a volunteer involving organisation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationReward",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationReward",
+      "en" : "Organisation Reward"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/SessionTime",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SessionTime",
+      "en" : "Session Time"
+    },
+    "comment" : {
+      "en" : "Any time information related to a volunteering activity session."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "16", "92" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationConcept",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationConcept",
+      "en" : "Organisation Concept"
+    },
+    "subClasses" : [ "98", "12", "99", "79", "29", "100", "50" ],
+    "comment" : {
+      "en" : "Any concept related to a volunteer involving organisation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Skill",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Skill"
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityDemography",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityDemography",
+      "en" : "Activity Demography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConceptScheme"
+    },
+    "subClasses" : [ "105" ],
+    "attributes" : [ "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivitySession",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivitySession",
+      "en" : "Activity Session"
+    },
+    "comment" : {
+      "en" : "Any session related to a volunteering activity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "24", "109" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationSkill",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationSkill",
+      "en" : "Organisation Skill"
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityRequirement",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityRequirement",
+      "en" : "Activity Requirement"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Reward",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Reward"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityCause",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityCause",
+      "en" : "Activity Cause"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationRequirement",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationRequirement",
+      "en" : "Organisation Requirement"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationAccessibility",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationAccessibility",
+      "en" : "Organisation Accessibility"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/SessionLocation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SessionLocation",
+      "en" : "Session Location"
+    },
+    "comment" : {
+      "en" : "Any location information related to a volunteering activity session."
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "40", "92" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityLanguage",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityLanguage",
+      "en" : "Activity Language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityConcept",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityConcept",
+      "en" : "Activity Concept"
+    },
+    "subClasses" : [ "113", "120", "119", "73", "54", "118", "59" ],
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/System",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "System",
+      "en" : "System",
+      "undefined" : "Volunteering Management System"
+    },
+    "subClasses" : [ "85" ],
+    "comment" : {
+      "en" : "Any system that is used to manage activities that involve volunteers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "131",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept",
+      "undefined" : "SKOS Concept"
+    },
+    "subClasses" : [ "69" ],
+    "attributes" : [ "external" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/SessionThing",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SessionThing",
+      "en" : "Session Thing"
+    },
+    "subClasses" : [ "41", "52" ],
+    "comment" : {
+      "en" : "Any class related to a volunteering activity session."
+    },
+    "attributes" : [ "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "115",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Language",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "45",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "110",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ConceptScheme",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ConceptScheme"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "145",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "139",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "144",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "101",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityAccessibility",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityAccessibility",
+      "en" : "Activity Accessibility"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "88",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityThing",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityThing",
+      "en" : "Activity Thing"
+    },
+    "subClasses" : [ "43" ],
+    "comment" : {
+      "en" : "Any class related to a volunteering activity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationLocation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationLocation",
+      "en" : "Organisation Location"
+    },
+    "comment" : {
+      "en" : "Any location information related to a volunteer involving organisation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "84", "40" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Activity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Activity",
+      "en" : "Activity",
+      "undefined" : "Volunteering Activity"
+    },
+    "comment" : {
+      "en" : "Any kind of activity that involves volunteers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "80",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "124",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "167",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "171",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationCause",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationCause",
+      "en" : "Organisation Cause"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationLanguage",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationLanguage",
+      "en" : "Organisation Language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Cause",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Cause"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Concept",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "subClasses" : [ "46", "33", "6", "135", "68", "102", "93", "140", "146" ],
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/OrganisationSystem",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OrganisationSystem",
+      "en" : "Organisation System"
+    },
+    "comment" : {
+      "en" : "Any system related to a volunteer involving organisation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "84", "89" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Demography",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Demography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/Accessibility",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Accessibility"
+    },
+    "attributes" : [ "external" ],
+    "id" : "146",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivityReward",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivityReward",
+      "en" : "Activity Reward"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/ActivitySkill",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ActivitySkill",
+      "en" : "Activity Skill"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "2",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "5",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://id.volunteeringdata.io/schema/label",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "label",
+      "en" : "has label"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/reward",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "6",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "reward",
+      "en" : "has reward"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "5",
+    "subproperty" : [ "8", "9" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#hasBeginning",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasBeginning"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationReward",
+    "inverse" : "13",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "12",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationReward",
+      "en" : "organisation has reward"
+    },
+    "superproperty" : [ "14", "4" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/end",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "17",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "end",
+      "en" : "has end"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/description",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "has description"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "18"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/beginning",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "beginning",
+      "en" : "has beginning"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activitySession",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activitySession",
+      "en" : "activity has session"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityApplyLink",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityApplyLink",
+      "en" : "has apply link"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationRequirement",
+    "inverse" : "30",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "29",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationRequirement",
+      "en" : "organisation has requirement"
+    },
+    "superproperty" : [ "14", "31" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/conceptOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "conceptOrganisation",
+      "en" : "concept has organisation"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "33",
+    "subproperty" : [ "35", "36", "37", "38", "13", "30", "39" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/cause",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "46",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cause",
+      "en" : "has charitable cause"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "45",
+    "subproperty" : [ "47", "48" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationLanguage",
+    "inverse" : "38",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "50",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationLanguage",
+      "en" : "organisation has language"
+    },
+    "superproperty" : [ "14", "51" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activitySkill",
+    "inverse" : "55",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "54",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activitySkill",
+      "en" : "activity has skill"
+    },
+    "superproperty" : [ "56", "57" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityDemography",
+    "inverse" : "60",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "59",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityDemography",
+      "en" : "activity has demography"
+    },
+    "superproperty" : [ "61", "57" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/locationSession",
+    "inverse" : "63",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "locationSession",
+      "en" : "location has session"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "41",
+    "attributes" : [ "object", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "prefLabel"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTopConcept"
+    },
+    "domain" : "2",
+    "subproperty" : [ "67" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/requirementOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "requirementOrganisation",
+      "en" : "requirement has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/requiresEmergencyParticipation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "71",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "requiresEmergencyParticipation",
+      "undefined" : "requires emergency participation"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityAccessibility",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "73",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityAccessibility",
+      "en" : "activity has accessibility information"
+    },
+    "superproperty" : [ "74", "57" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationDescription",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "76",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationDescription",
+      "en" : "has description"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/sessionApplyLink",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "78",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sessionApplyLink",
+      "en" : "has apply link"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisation",
+      "en" : "has organisation"
+    },
+    "domain" : "80",
+    "subproperty" : [ "81", "32", "82", "83" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/sessionLocation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "41",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sessionLocation",
+      "en" : "session has location"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "24",
+    "attributes" : [ "object", "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/system",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "89",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "system",
+      "en" : "has system"
+    },
+    "domain" : "88",
+    "subproperty" : [ "90" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/timeSession",
+    "inverse" : "91",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "timeSession",
+      "en" : "time has session"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationSystem",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "85",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationSystem",
+      "en" : "organisation has system"
+    },
+    "superproperty" : [ "87" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityConcept",
+    "inverse" : "94",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "93",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityConcept",
+      "en" : "activity has concept"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "23",
+    "subproperty" : [ "47", "72", "95", "53", "58", "8", "96" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/demographyOrganisation",
+    "inverse" : "97",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "demographyOrganisation",
+      "en" : "demography has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "79",
+    "attributes" : [ "object", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/session",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "session",
+      "en" : "has session"
+    },
+    "domain" : "101",
+    "subproperty" : [ "22", "62", "91" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationAccessibility",
+    "inverse" : "36",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "98",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationAccessibility",
+      "en" : "organisation has accessibility information"
+    },
+    "superproperty" : [ "14", "74" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/latitude",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "107",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "latitude",
+      "en" : "has latitude"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/accessibilityActivity",
+    "inverse" : "72",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accessibilityActivity",
+      "en" : "accessibility information has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "73",
+    "attributes" : [ "object", "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationCause",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "99",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationCause",
+      "en" : "organisation has cause"
+    },
+    "superproperty" : [ "44", "14" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/location",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "40",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "location",
+      "en" : "has location"
+    },
+    "domain" : "110",
+    "subproperty" : [ "111", "63" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/requirementActivity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "requirementActivity",
+      "en" : "requirement has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "113",
+    "attributes" : [ "object", "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/time",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "16",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "time",
+      "en" : "has time"
+    },
+    "domain" : "115",
+    "subproperty" : [ "116" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/languageOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "languageOrganisation",
+      "en" : "language has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "50",
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/rewardActivity",
+    "inverse" : "8",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "rewardActivity",
+      "en" : "reward has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "118",
+    "attributes" : [ "object", "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/rewardOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "rewardOrganisation",
+      "en" : "reward has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/topConcept",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "69",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topConcept",
+      "en" : "has top concept"
+    },
+    "superproperty" : [ "66" ],
+    "domain" : "105",
+    "attributes" : [ "object", "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/systemOrganisation",
+    "inverse" : "90",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "systemOrganisation",
+      "en" : "system has organisation"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "85",
+    "attributes" : [ "object", "external" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityLanguage",
+    "inverse" : "121",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "120",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityLanguage",
+      "en" : "activity has language"
+    },
+    "superproperty" : [ "51", "57" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/allowsRemoteParticipation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "123",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "allowsRemoteParticipation",
+      "undefined" : "allows remote participation"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/skill",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "102",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "skill",
+      "en" : "has skill"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "124",
+    "subproperty" : [ "125", "53" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationActivity",
+    "inverse" : "83",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationActivity",
+      "en" : "organisation has activity"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/languageActivity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "languageActivity",
+      "en" : "language has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "120",
+    "attributes" : [ "object", "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/applyLink",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "129",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "applyLink",
+      "en" : "has apply link"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/sessionActivity",
+    "inverse" : "22",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sessionActivity",
+      "en" : "session has activity"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "24",
+    "attributes" : [ "object", "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/email",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "134",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "email",
+      "en" : "has email"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationLocation",
+    "inverse" : "82",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "42",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationLocation",
+      "en" : "organisation has location"
+    },
+    "superproperty" : [ "86" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/demography",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "140",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "demography",
+      "en" : "has demographic target"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "139",
+    "subproperty" : [ "97", "58" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/sessionTime",
+    "inverse" : "91",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "52",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sessionTime",
+      "en" : "session has time"
+    },
+    "superproperty" : [ "114" ],
+    "domain" : "24",
+    "attributes" : [ "object", "external" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/concept",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "69",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "concept",
+      "en" : "has concept"
+    },
+    "domain" : "144",
+    "subproperty" : [ "44", "14", "51", "56", "4", "74", "61", "57", "31" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/accessibility",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "146",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accessibility",
+      "en" : "has accessibility information"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "145",
+    "subproperty" : [ "72", "103" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#hasEnd",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "hasEnd"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "147"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/website",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "137",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "website",
+      "en" : "has website"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "149"
+  }, {
+    "range" : "84",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityDescription",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "138",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityDescription",
+      "en" : "has description"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/skillActivity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "skillActivity",
+      "en" : "skill has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "54",
+    "attributes" : [ "object", "external" ],
+    "id" : "55"
+  }, {
+    "range" : "109",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "84",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/conceptActivity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "conceptActivity",
+      "en" : "concept has activity"
+    },
+    "superproperty" : [ "127" ],
+    "domain" : "93",
+    "subproperty" : [ "55", "121", "60", "117", "108", "112", "156" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/language",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "135",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "language",
+      "en" : "has language"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "131",
+    "subproperty" : [ "49", "95" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "51"
+  }, {
+    "range" : "40",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "40",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "16",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "24",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "132",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "92",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/conceptLabel",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "164",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "conceptLabel",
+      "en" : "concept has preferred label"
+    },
+    "domain" : "69",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "163"
+  }, {
+    "range" : "92",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/demographyActivity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "140",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "demographyActivity",
+      "en" : "demography has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "59",
+    "attributes" : [ "object", "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityCause",
+    "inverse" : "156",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "119",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityCause",
+      "en" : "activity has cause"
+    },
+    "superproperty" : [ "44", "57" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activity",
+      "en" : "has activity"
+    },
+    "domain" : "167",
+    "subproperty" : [ "130", "126", "94" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/causeActivity",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "causeActivity",
+      "en" : "cause has activity"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "119",
+    "attributes" : [ "object", "external" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityLabel",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "166",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityLabel",
+      "en" : "has label"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "170"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityOrganisation",
+      "en" : "activity has organisation"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "83"
+  }, {
+    "range" : "93",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "93",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "93",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "93",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "93",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationLabel",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "178",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationLabel",
+      "en" : "has label"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationSkill",
+    "inverse" : "39",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "100",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationSkill",
+      "en" : "organisation has skill"
+    },
+    "superproperty" : [ "14", "56" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "125"
+  }, {
+    "range" : "104",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "69",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/url",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "150",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "url",
+      "en" : "has URL"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "181"
+  }, {
+    "range" : "69",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "69",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "69",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "69",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationConcept",
+    "inverse" : "32",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "33",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationConcept",
+      "en" : "organisation has concept"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "0",
+    "subproperty" : [ "97", "125", "49", "103", "48", "9", "28" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "14"
+  }, {
+    "range" : "69",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "69",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "69",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/causeOrganisation",
+    "inverse" : "48",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "causeOrganisation",
+      "en" : "cause has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "99",
+    "attributes" : [ "object", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationApplyLink",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "151",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationApplyLink",
+      "en" : "has apply link"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "190"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/purpose",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "148",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "purpose",
+      "en" : "has purpose"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "191"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityRequirement",
+    "inverse" : "112",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "113",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityRequirement",
+      "en" : "activity has requirement"
+    },
+    "superproperty" : [ "57", "31" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/accessibilityOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accessibilityOrganisation",
+      "en" : "accessibility has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "98",
+    "attributes" : [ "object", "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/locationLabel",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "143",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "locationLabel",
+      "en" : "has label"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/skillOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "skillOrganisation",
+      "en" : "skill has organisation"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "100",
+    "attributes" : [ "object", "external" ],
+    "id" : "39"
+  }, {
+    "range" : "33",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "33",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://purl.org/dc/terms/description",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "description"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "195"
+  }, {
+    "range" : "33",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "33",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/address",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "141",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "has address"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "198"
+  }, {
+    "range" : "33",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "33",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "33",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/activityReward",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "118",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityReward",
+      "en" : "activity has reward"
+    },
+    "superproperty" : [ "4", "57" ],
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/requirement",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "68",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "requirement",
+      "en" : "has requirement"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "171",
+    "subproperty" : [ "28", "96" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/longitude",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "169",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "longitude",
+      "en" : "has longitude"
+    },
+    "domain" : "40",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/organisationDemography",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "79",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organisationDemography",
+      "en" : "organisation has demography"
+    },
+    "superproperty" : [ "14", "61" ],
+    "domain" : "0",
+    "attributes" : [ "object", "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/phone",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "168",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "phone",
+      "en" : "has phone number"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "203"
+  }, {
+    "iri" : "https://id.volunteeringdata.io/schema/locationOrganisation",
+    "baseIri" : "https://id.volunteeringdata.io/schema",
+    "range" : "0",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://id.volunteeringdata.io/schema",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "locationOrganisation",
+      "en" : "location has organisation"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "42",
+    "attributes" : [ "object", "external" ],
+    "id" : "82"
+  }, {
+    "range" : "93",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "93",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "89",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  } ]
+}
