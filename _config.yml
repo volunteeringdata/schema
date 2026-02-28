@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Volunteering and Social Action Ontology
-base_url: "https://model.volunteeringdata.io"
+base_url: "https://schema.volunteeringdata.io"
 description: "A data model to describe volunteering opportunities and volunteer-involving organisations."
 github_username: volunteeringdata
-repository: volunteeringdata/volunteering-data-model
+repository: volunteeringdata/schema
 excerpt_separator: "<!--more-->"
 include: 
   - _redirects

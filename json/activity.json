@@ -1,0 +1,81 @@
+{
+    "@context": "https://api.volunteeringdata.io/context/v1",
+    "@graph": [
+        {
+            "id": "",
+            "type": "Activity",
+            "label": "My environmental Charity",
+            "description": "A place where you can help the environment",
+            "organisation": "https://id.volunteeringdata.io/0c53e88f-1345-4ec6-a25a-e70bf971476e",
+            "allowsRemoteParticipation": "true",
+            "requiresEmergencyParticipation": "false",
+            "applyLink": "https://myenvironmentalcharity.example.org/apply",
+            "email": "volunteering@myenvironmentalcharity.org",
+            "phone": "",
+            "session": [
+                {
+                    "applyLink": "",
+                    "email": "",
+                    "phone": "",
+                    "location": [
+                        {
+                            "locationLabel": "",
+                            "locationType": "",
+                            "address": "",
+                            "latitude": "",
+                            "longitude": ""
+                        }
+                    ],
+                    "time": [
+                        {
+                            "beginning": "",
+                            "end": ""
+                        }
+                    ]
+                }
+            ],
+            "accessibility": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ],
+            "cause": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ],
+            "demography": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ],
+            "language": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ],
+            "requirement": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ],
+            "reward": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ],
+            "skill": [
+                {
+                    "id": "",
+                    "label": ""
+                }
+            ]
+        }
+    ]
+}

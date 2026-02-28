@@ -31,10 +31,8 @@ We will then ensure you are invited to working group meetings and receive workin
 
 If you have any questions please contact us via research@theodi.org
 
-## Forthcoming Meetings
 
-### Meeting 4 18/02/26 3-4pm
-We will present our data models for accessibility and crisis response, we will demonstrate how to log suggestions, issues and questions on the data models. We will also look at sharing volunteering opportunities data, and what information needs to be recorded to enable data sharing.
+## Forthcoming Meetings
 
 ### Meeting 5 04/03/26 3-4pm
 We will focus on describing the value of volunteering as data, this will include the value to people volunteering and the value to the volunteer involving organisation.
@@ -42,11 +40,12 @@ We will focus on describing the value of volunteering as data, this will include
 ### Meeting 6 18/03/26 3-4pm
 This will be a retrospective, we will present the work of the working group and our achievements and seek your views on what went well, what didn’t go well and your ideas for the future.
 
+
 ## Previous Meetings
 
 ### Meeting 1 2025-11-14
 
-The first working group meeting introducing the project, and the role and purpose of the standards working group. It explored the very first version of the [data model](https://model.volunteeringdata.io/version/) and members were invited to discuss what was missing.
+The first working group meeting introducing the project, and the role and purpose of the standards working group. It explored the very first version of the [data model](./version/) and members were invited to discuss what was missing.
 
 * Meeting Note (PDF): [View the note of the meeting](20251114_working_group_meeting_notes.pdf)  
 * Slides (PDF): [View the slides from the meeting](20251114_working_group_meeting_slides.pdf)  
@@ -71,3 +70,6 @@ The third working group meeting was more retrospective, the working group review
 * Whiteboard (Miro): [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVGd58Ecw=/?share_link_id=112346054045)
 
 
+### Meeting 4 18/02/26 3-4pm
+
+We will present our data models for accessibility and crisis response, we will demonstrate how to log suggestions, issues and questions on the data models. We will also look at sharing volunteering opportunities data, and what information needs to be recorded to enable data sharing.
