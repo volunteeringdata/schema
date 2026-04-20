@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /sitemap.xml
+regenerate: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in site.pages %}{% if page.permalink and page.permalink != "/sitemap.xml" and page.permalink != "/feed.xml" and page.permalink != "/404.html" %}
+  <url>
+    <loc>{{ page.permalink | prepend: site.base_url }}</loc>{% if page.last_modified %}
+    <lastmod>{{ page.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>{% endif %}{% endfor %}{% for post in site.posts %}
+  <url>
+    <loc>{{ post.url | prepend: site.base_url }}</loc>
+    <lastmod>{{ post.last_modified | default: post.date | date: "%Y-%m-%d" }}</lastmod>
+  </url>{% endfor %}
+</urlset>
