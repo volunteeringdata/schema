@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Join the Volunteering Data Standards Working Group"
 ---
 
 

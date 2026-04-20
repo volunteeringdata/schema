@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Volunteering Data Standards Working Group Meeting 3 (2025-12-10)"
 ---
 
 <p>The third working group meeting was more retrospective, the working group reviewed what had been achieved so far, explored the outputs from <a href="https://theodi.org/news-and-events/blog/connecting-volunteers-what-we-learned-from-our-hackathon/">the hackathon</a> and continued the discussion about open data.</p>

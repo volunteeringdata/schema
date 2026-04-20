@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "New open data infrastructure initiative to strengthen volunteering across communities"
 ---
 
 

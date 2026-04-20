@@ -8,7 +8,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Connecting volunteers: What we learned from our hackathon"
 ---
 
 

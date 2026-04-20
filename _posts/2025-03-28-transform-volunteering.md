@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Let's transform volunteering with data"
 ---
 
 

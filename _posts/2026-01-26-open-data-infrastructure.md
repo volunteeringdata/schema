@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Open data infrastructure for volunteering"
 ---
 
 

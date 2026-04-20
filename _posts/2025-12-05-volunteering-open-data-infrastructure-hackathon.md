@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Open Data Infrastructure for Volunteering Hackathon (2025-12-03 & 2025-12-04)"
 ---
 
 <p>A <a href="https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/">two-days hackathon</a> bringing together volunteer platforms, developers, and community organisations to test the first draft of the volunteering standard and explore how open data can connect more people with opportunities to help.</p>

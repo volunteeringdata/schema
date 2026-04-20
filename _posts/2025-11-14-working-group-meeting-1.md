@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Volunteering Data Standards Working Group Meeting 1 (2025-11-14)"
 ---
 
 <p>The first working group meeting introducing the project, and the role and purpose of the standards working group. It explored the very first version of the <a href="/working-group/model-version/">data model</a> and members were invited to discuss what was missing.</p>

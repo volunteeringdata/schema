@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Volunteering Data Standards Working Group Meeting 6 (2026-03-18)"
 ---
 
 <h2>Summary</h2>

@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "Volunteering Data Standards Working Group Meeting 2 (2025-11-26)"
 ---
 
 <p>The second working group meeting provided an update on the development of the data model and workshopped data access requirements, to inform the design of an API (APIs are computer to computer messaging services) and started to consider the pros and cons of opportunity data being published as open data (Open data is data that anyone can access, use or share).</p>

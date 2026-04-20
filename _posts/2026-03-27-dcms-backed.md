@@ -7,7 +7,6 @@ categories:
 breadcrumbs:
   - title: "Article"
     url: /article
-  - title: "DCMS-backed common volunteering data standard published"
 ---
 
 DCMS-backed common volunteering data standard published - See more at: [https://www.civilsociety.co.uk/news/dcms-backed-common-volunteering-data-standard-published.html](https://www.civilsociety.co.uk/news/dcms-backed-common-volunteering-data-standard-published.html).
