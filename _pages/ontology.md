@@ -7,7 +7,7 @@ breadcrumbs:
 ---
 
 
-<nav id="toc" class="toc numbered">
+<nav class="toc numbered-toc">
 <h2 id="table-of-contents">Table of Contents</h2>
 
 1. TOC
@@ -15,7 +15,7 @@ breadcrumbs:
 
 </nav>
 
-<article>
+<article class="numbered-headings">
 
 ## Introduction
 

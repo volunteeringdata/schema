@@ -269,51 +269,29 @@ main > article :is(p, ul, ol, dl) {
   overflow-x: auto;
 }
 
-.numbered ol {
-  counter-reset: toc;
-  list-style-type: none;
-}
-
-.numbered ol li::before {
-  counter-increment: toc;
-  content: counters(toc, ".") " ";
-  display: inline-block;
-  font-weight: bold;
-  min-width: 3.75rem;
-}
-
-.numbered ol li li::before {
-  font-weight: normal;
-}
-
-.numbered ol li li li::before {
-  min-width: 4.25rem;
-}
-
-main > article > article {
+.numbered-headings {
   counter-reset: h2;
 }
 
-main > article > article h2 {
+.numbered-headings h2 {
   counter-reset: h3;
 }
 
-main > article > article h3 {
+.numbered-headings h3 {
   counter-reset: h4;
 }
 
-main > article > article h2::before {
+.numbered-headings h2::before {
   counter-increment: h2;
   content: counter(h2) ". ";
 }
 
-main > article > article h3::before {
+.numbered-headings h3::before {
   counter-increment: h3;
   content: counter(h2) "." counter(h3) " ";
 }
 
-main > article > article h4::before {
+.numbered-headings h4::before {
   counter-increment: h4;
   content: counter(h2) "." counter(h3) "." counter(h4) " ";
 }
-

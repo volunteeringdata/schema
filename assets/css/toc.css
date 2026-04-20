@@ -9,7 +9,7 @@
 
 .toc h2 {
   margin-top: 0;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #000;
 }
 
@@ -19,13 +19,12 @@
   margin: 0;
 }
 
-.toc ol ol {
-  padding-left: 0;
-  margin: 0.25em 0;
+.toc > ol > li:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 .toc li {
-  margin: 0.3em 0;
+  margin: 0;
   line-height: 1.4;
 }
 
@@ -36,37 +35,38 @@
 .toc a {
   text-decoration: none;
   color: var(--main-link-color);
+  border-bottom: 1px solid transparent;
 }
 
 .toc a:hover,
 .toc a:focus {
-  color: #386fc4;
+  color: var(--link-color-hover);
+  text-decoration: underline;
+  transition: var(--link-transition);
 }
 
-.toc a:hover .content,
-.toc a:focus .content {
-  border-bottom: 1px solid #386fc4;
+.numbered-toc ol {
+  counter-reset: toc;
+  list-style-type: none;
 }
 
-.toc a:active {
-  color: #c00;
+.numbered-toc ol li a {
+  display: block;
+  padding: .2rem 0;
 }
 
-.toc .secno {
+.numbered-toc ol li a::before {
+  counter-increment: toc;
+  content: counters(toc, ".") " ";
   display: inline-block;
-  min-width: 3.5em;
-  color: var(--main-link-color);
+  font-weight: bold;
+  min-width: 3.8rem;
 }
 
-.toc a:hover .secno,
-.toc a:focus .secno {
-  color: var(--main-link-color);
+.numbered-toc ol li li a::before {
+  font-weight: normal;
 }
 
-.toc ol ol .secno {
-  min-width: 4.25em;
-}
-
-.toc ol ol ol .secno {
-  min-width: 5em;
+.numbered-toc ol li li li a::before {
+  min-width: 4.6rem;
 }
