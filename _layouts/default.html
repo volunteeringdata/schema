@@ -45,8 +45,8 @@
                 <span></span>
                 <span></span>
             </button>
-        </header>
-        {% include breadcrumbs.html %}
+        </header>{% unless page.permalink == "/" %}
+        {% include breadcrumbs.html %}{% endunless %}
         <main>
             <article>
                 {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}

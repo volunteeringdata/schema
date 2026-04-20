@@ -1,13 +1,7 @@
-{% if page.breadcrumbs %}
 <nav class="breadcrumb" aria-label="breadcrumbs">
 <ol>
-    <li><a href="/">Home</a></li>
-    {% for breadcrumb in page.breadcrumbs %}
-    {% if forloop.last %}
-        <li><a href="#" aria-current="page">{{ breadcrumb.title }}</a></li>
-    {% else %}
-        <li><a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>
-    {% endif %}
-    {% endfor %}
+    <li><a href="/">Home</a></li>{% for breadcrumb in page.breadcrumbs %}
+    <li><a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>{% endfor %}
+    <li><a href="#" aria-current="page">{{ page.title }}</a></li>
 </ol>
-</nav>{% endif %}
+</nav>
