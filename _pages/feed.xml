@@ -1,6 +1,6 @@
 ---
-permalink: /feed.xml
 layout: null
+permalink: /feed.xml
 regenerate: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
@@ -18,7 +18,10 @@ regenerate: true
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.base_url }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {%- assign excerpt_text = post.excerpt | strip_html | strip -%}
+        {%- if excerpt_text != "" %}
         <content type="html">{{ post.excerpt | xml_escape }}</content>
+        {%- endif %}
       </item>
     {% endfor %}
   </channel>

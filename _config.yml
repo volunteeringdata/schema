@@ -31,8 +31,6 @@ styles:
   minify: true
 syntax_highlighting_scheme: github
 excerpt_separator: "<!--more-->"
-plugins:
-  - jekyll-feed
 include: 
   - _pages
 exclude:
