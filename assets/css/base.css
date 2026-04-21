@@ -8,6 +8,7 @@
   --main-highlight-2-border: rgb(82, 224, 82);
   --main-highlight-2-background: rgb(233, 251, 233);
   --main-highlight-2-color: rgb(23, 130, 23);
+  --main-highlight-3-background: rgb(241, 240, 240);
   --main-text-background: rgb(255, 255, 255);
   --main-text-color: rgb(21, 35, 54);
   --main-link-background: rgb(188, 231, 211);
@@ -22,7 +23,7 @@
   --main-margin-narrow: .5rem 0 .6rem;
   --main-padding: 1.5rem 3.2rem 1.6rem 3.1rem;
   --main-padding-narrow: .5rem 3.2rem .6rem 3rem;
-  --article-text-max-width: 50rem;
+  --article-text-max-width: 56rem;
   --article-main-image-max-width: 70rem;
 }
 
@@ -67,8 +68,10 @@ a:hover {
   transition: var(--link-color-transition);
 }
 
-main article img {
-  max-width: 90%;
+blockquote {
+  background-color: var(--main-highlight-3-background);
+  margin: 0;
+  padding: .7rem 1.8rem .8rem 1.9rem;
 }
 
 dt {
@@ -77,10 +80,6 @@ dt {
 
 dd {
   margin: 0 0 .6rem;
-}
-
-main article *:is(h1, h2, h3, h4, h5, h6, p, dl, ul, ol) {
-  max-width: 57rem;
 }
 
 /* Layout */
@@ -120,7 +119,11 @@ main {
   padding: var(--main-padding);
 }
 
-main > article :is(p, ul, ol, dl) {
+main article img {
+  max-width: 90%;
+}
+
+main article *:is(h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote) {
   max-width: var(--article-text-max-width);
 }
 
