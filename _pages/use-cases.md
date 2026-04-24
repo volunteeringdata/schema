@@ -2,8 +2,6 @@
 permalink: /use-cases
 layout: default
 title: Volunteering and Social Action Use Cases
-breadcrumbs:
-  - title: "Use Cases"
 ---
 
 <ol class="use-case-list">

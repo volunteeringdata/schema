@@ -2,8 +2,6 @@
 permalink: /working-group
 layout: default
 title: Volunteering Data Standards Working Group
-breadcrumbs:
-  - title: "Working Group"
 ---
 
 ## Help develop open standards for volunteering data.

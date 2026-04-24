@@ -2,8 +2,6 @@
 permalink: /ai-readiness
 layout: default
 title: AI-ready data
-breadcrumbs:
-  - title: "AI-ready data"
 ---
 
 <nav id="toc" class="toc">

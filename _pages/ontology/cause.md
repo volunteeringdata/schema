@@ -5,7 +5,6 @@ title: Charitable Cause Taxonomy
 breadcrumbs:
   - title: "Ontology"
     url: /ontology/
-  - title: "Charitable Cause Taxonomy"
 ---
 
 ## Terms

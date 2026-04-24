@@ -5,7 +5,6 @@ title: Requirement Taxonomy
 breadcrumbs:
   - title: "Ontology"
     url: /ontology/
-  - title: "Requirement Taxonomy"
 ---
 
 ## Terms

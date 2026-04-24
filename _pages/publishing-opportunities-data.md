@@ -2,8 +2,6 @@
 permalink: /publishing-opportunities-data
 layout: default
 title: Publishing Opportunities Data
-breadcrumbs:
-  - title: "Publishing Opportunities Data"
 ---
 
 <nav id="toc" class="toc">

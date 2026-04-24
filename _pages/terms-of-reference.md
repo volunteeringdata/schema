@@ -5,7 +5,6 @@ title: Developing an Open Data Infrastructure for Volunteering and Social Action
 breadcrumbs:
   - title: "Working Group"
     url: /working-group/
-  - title: "Terms of Reference"
 ---
 
 

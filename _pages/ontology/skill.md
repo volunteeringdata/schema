@@ -5,7 +5,6 @@ title: Skill Taxonomy
 breadcrumbs:
   - title: "Ontology"
     url: /ontology/
-  - title: "Skill Taxonomy"
 ---
 
 ## Terms

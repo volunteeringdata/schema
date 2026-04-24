@@ -3,8 +3,6 @@ permalink: /article/
 layout: default
 regenerate: true
 title: "Volunteering Data Updates"
-breadcrumbs:
-  - title: "Articles"
 ---
 
 <p>Articles in this section relate to volunteering data standardisation.</p>
