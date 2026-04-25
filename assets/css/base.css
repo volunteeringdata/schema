@@ -36,10 +36,6 @@
 }
 
 /* Defaults */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
 body {
   background: var(--background);
   color: var(--color);
@@ -122,6 +118,10 @@ main {
   color: var(--main-text-color);
   min-height: 100%;
   padding: var(--main-padding);
+}
+
+main * {
+  box-sizing: border-box;
 }
 
 main article img {

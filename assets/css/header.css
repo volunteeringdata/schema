@@ -105,6 +105,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 4px 0;
     width: 30px;
     height: 30px;
     background: transparent;
@@ -120,8 +121,14 @@
 
   .header .hamburger-menu.active {
     position: fixed;
-    top: 2.55rem;
+    top: 1.5rem;
     right: 3.2rem;
+  }
+
+  @media (max-width: 800px) {
+    .header .hamburger-menu.active {
+      right: 1.6rem;
+    }
   }
 
   .header .hamburger-menu span {
