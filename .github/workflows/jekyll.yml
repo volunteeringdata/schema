@@ -18,7 +18,7 @@ jobs:
       - name: Build Jekyll
         run: bundle exec jekyll build
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
 
       - name: Create Search Index with Pagefind
         run: npx pagefind --site _site
